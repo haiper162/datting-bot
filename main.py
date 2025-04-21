@@ -17,5 +17,5 @@ async def welcome(message: types.Message):
     await asyncio.sleep(8)
     await message.answer("Може, хоч ти не такий? Я зараз тут — https://твій-смартлінк.com")
 
-if name == '__main__':
+if __name__ == '__main__':
     executor.start_polling(dp)
